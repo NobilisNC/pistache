@@ -1,6 +1,7 @@
 # Pistache
 
 Pistache is a C++ templated string formatter.
+
 This library allow fast string formatting when a "base" string is used with some parameters.
 
 ```cpp
