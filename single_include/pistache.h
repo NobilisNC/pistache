@@ -1,6 +1,6 @@
 /*
- * Pistache -- C/C++ string formatting library
- * <http://github.com/NobilisNC/pistache>
+ * Pistache -- C++ templated string formatting library
+ * <https://github.com/NobilisNC/pistache>
  *
  * Copyright (c) 2018 Tom Henoch
  *
