@@ -31,8 +31,10 @@ for(const auto& user : very_long_array_of_users)
              << "City : " << user.city << "\n";
 ```
 
+
 This approach work only if you format your string at compile time and (according to me) it's a little bit "angle bracket hell".
-The same thing with pistache
+
+The same thing with pistache :
 
 ```cpp
 std::vector<User> very_long_array_of_users;
@@ -42,7 +44,7 @@ pistache::String infos("User n°{id}\n"
                        "City : {city}\n"
                       );
 
-//Create it before loop to avoid construct it only one time                      
+//Create it before loop to construct it only one time                      
 pistache::Context ctx;
 for(const auto& user : very_long_array_of_users) {
     ctx["id"] = user.id;
