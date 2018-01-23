@@ -62,4 +62,4 @@ This approach allow a better reading and we can change formatting at runtime.
 
 # License
 
-This library is pro
+This library is provided under the MIT License
